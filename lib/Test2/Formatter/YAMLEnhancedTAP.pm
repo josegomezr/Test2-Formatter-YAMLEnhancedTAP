@@ -5,7 +5,7 @@ use warnings;
 use TAP::Parser::YAMLish::Writer;
 use base 'Test2::Formatter::TAP';
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.4';
 
 # Private: TAP::Parser::YAMLish::Writer instance to write YAML TAP snippets
 #          it didn't really like YAML::PP in the output for whatever reason
@@ -136,6 +136,7 @@ L<TAP::Formatter::GitHubActions> to bring more accurate annotations.
   runs!
 
 - L<TAP Version 13 Spec|https://testanything.org/tap-version-13-specification.html>: For more information about the output syntax.
+
 - L<Node-TAP|https://node-tap.org/tap-format/>: For source of inspiration
 
 =back

@@ -4,3 +4,6 @@ MANIFEST
 README
 t/Test2-Formatter-YAMLEnhancedTAP.t
 lib/Test2/Formatter/YAMLEnhancedTAP.pm
+t/fixtures/tests/simple-fail.st
+t/fixtures/output/simple-fail.out
+t/Test2-Formatter-YAMLEnhancedTAP.t

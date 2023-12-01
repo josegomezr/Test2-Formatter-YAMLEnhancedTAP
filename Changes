@@ -1,5 +1,8 @@
 Revision history for Perl extension Test2::Formatter::YAMLEnhancedTAP.
 
+0.0.4  Fri 01 Dec 2023 23:44:06
+	- Fixed build errors, including fixtures in manifest.
+
 0.0.2  Fri 01 Dec 2023 23:24:40
 	- Fix release status.
 	- Version bump.
