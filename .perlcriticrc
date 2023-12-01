@@ -1,0 +1,4 @@
+theme = freenode + community + style
+severity = 4
+verbose = ::warning file=%f,line=%l,col=%c,title=%m - severity %s::[%p] %e\n
+include = strict TestingAndDebugging::RequireUseStrict TestingAndDebugging::RequireUseWarnings

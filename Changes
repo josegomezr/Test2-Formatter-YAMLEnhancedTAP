@@ -1,0 +1,9 @@
+Revision history for Perl extension Test2::Formatter::YAMLEnhancedTAP.
+
+0.0.1  Fri Dec  1 19:16:41 2023
+	- Initial version, decoupled from TAP::Formatter::GitHubActions.
+
+	- original version; created by h2xs 1.23 with options
+		-AX --skip-exporter --use-new-tests -n Test2::Formatter::YAMLEnhancedTAP
+
+
