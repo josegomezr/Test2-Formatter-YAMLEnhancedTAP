@@ -13,7 +13,7 @@ WriteMakefile(
     'TAP::Harness' => 3.12
   },
   TEST_REQUIRES => {
-    'Test::More' => '0',
+    'Test::More' => '1.302087',
   },
   ABSTRACT_FROM => 'lib/Test2/Formatter/YAMLEnhancedTAP.pm',
   MIN_PERL_VERSION => '5.016000',
@@ -25,6 +25,9 @@ WriteMakefile(
         type => 'git',
         url => 'https://github.com/josegomezr/Test2-Formatter-YAMLEnhancedTAP.git',
         web => 'https://github.com/josegomezr/Test2-Formatter-YAMLEnhancedTAP',
+      },
+      bugtracker => {
+        web => 'https://github.com/josegomezr/Test2-Formatter-YAMLEnhancedTAP/issues',
       },
     },
   },

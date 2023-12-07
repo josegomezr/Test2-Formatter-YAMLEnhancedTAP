@@ -40,13 +40,22 @@ foreach my $test (@tests) {
 
   # I'll just pretty print it here.
   # tap output is quite hard to parse for me...
-  if ($ENV{TEST_SHOW_FULL_DIFF} && $fail) {
-    print STDERR "\n== Expected $output ==\n";
-    print STDERR $expected;
-    print STDERR "\n====\n";
+  if ($fail) {
 
-    print STDERR "\n== Received $output ==\n";
-    print STDERR $received;
-    print STDERR "\n====\n";
+    diag(<<~MSG);
+    on $output
+      Expected: '$expected'
+      Received: '$received'
+    MSG
+
+    if ($ENV{TEST_SHOW_FULL_DIFF}) {
+      print STDERR "\n== Expected $output ==\n";
+      print STDERR $expected;
+      print STDERR "\n====\n";
+
+      print STDERR "\n== Received $output ==\n";
+      print STDERR $received;
+      print STDERR "\n====\n";
+    }
   }
 }

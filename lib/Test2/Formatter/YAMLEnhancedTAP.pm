@@ -5,7 +5,7 @@ use warnings;
 use TAP::Parser::YAMLish::Writer;
 use base 'Test2::Formatter::TAP';
 
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 
 # Private: TAP::Parser::YAMLish::Writer instance to write YAML TAP snippets
 #          it didn't really like YAML::PP in the output for whatever reason
